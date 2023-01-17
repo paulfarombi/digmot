@@ -1,0 +1,198 @@
+:root{
+    --main-color:#044d78;
+    --bg: #fff;
+    --gold: #cc9933;
+    --black: #443f35;
+    --orange: #db7803;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    background: var(--bg);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+    padding: 50px 80px 0;
+}
+
+header .container {
+    width: 100%;
+    display: flex;
+    color: var(--black);
+    text-align: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+header nav {
+    display: inline;
+}
+header nav ul{
+    display: flex;
+    /* list-style: none; */
+}
+header nav ul li:not(:last-child) {
+    padding-right: 30px;
+}
+header nav ul li a {
+    color: var(--black);
+    /* text-decoration: none; */
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.nav-sub {
+    display: none;
+}
+
+.head-info ul{
+    display: flex;    
+}
+.head-info a {
+    color: var(--black);
+    font-size: 22px;
+}
+.whatsapp {
+    color: green;
+    font-weight: 1000;
+}
+.head-info ul li:not(:last-child) {
+    padding-right: 20px;
+}
+
+/* BANNER SECTION */
+.banner {
+    width: 100%;
+    text-align: center;
+}
+
+.banner .container {
+    padding: 60px 0;
+}
+
+.banner .container h1 {
+    font-size: 85px;
+    color: var(--black);
+}
+
+.banner .container h1 span {
+    color: var(--main-color);
+}
+
+.banner .container h4 {
+    font-size: 35px;
+    color: var(--black);
+    margin-bottom: 24px;
+}
+
+.banner .container a {
+    padding: 13px 22px;
+    border-radius: 20px;
+    background-color: var(--orange);
+    color: var(--bg);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.banner .container a:hover {
+    background-color: var(--bg);
+    border: 2.5px solid var(--orange);
+    color: var(--orange);
+}
+
+.banner .container a .fa-greater-than {
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.banner .container a .fa-greater-than:not(:last-chid) {
+    padding-left: 8px;
+}
+
+.media-reviews {
+    width: 100%;
+    background-color: var(--main-color);
+    display: flex;
+}
+.media-reviews .container {
+    width: 100%;
+    padding: 20px 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.media-reviews .medias {
+    color: var(--gold);
+    display: flex;
+    flex-direction: column;
+    padding: 0 80px;
+    align-items: center;
+}
+.media-reviews .medias h2 {
+    color: var(--bg);
+    font-size: 34px;
+    padding-bottom: 10px
+}
+
+.media-reviews .medias .stars {
+    display: flex;
+    font-size: 15px;
+}
+.media-reviews .medias ul li:not(:last-child) {
+    padding-right: 5px;
+}
+
+.media-reviews .medias span {
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+.result-client {
+    width: 100%;
+    border-bottom: 1px solid rgba(32, 31, 31, 0.4);
+}
+
+.result-client .container {
+    text-align: center;
+}
+
+.result-client h4 {
+    font-size: 50px;
+    padding: 30px 0;
+    color: var(--black);
+    font-weight: lighter;
+}
+
+.result-client h4 span {
+    font-weight: 1000;
+}
+
+/* Watch Video Section */
+.watch-videos {
+    width: 100%;
+}
+
+.watch-videos .container {
+    width: 100%;
+    display: flex;
+}
+video {
+    /* width: 50%;
+    height: 400px; */
+}
+
+
