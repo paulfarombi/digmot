@@ -32,9 +32,9 @@
             <img src="Images/logo.png" alt="logo" />
           </div>
 
-          <nav>
+          <nav class="nav-bar">
             <ul>
-              <li><a href="index.html">Home</a></li>
+              <li><a href="index.html" class="nav-link">Home</a></li>
               <li>
                 <a href="about.html"
                   >About Us <i class="fa-solid fa-caret-down"></i
@@ -81,7 +81,10 @@
             </ul>
           </nav>
 
+          
+          
           <div class="head-info">
+            <div class="row">
             <ul>
               <li>
                 <a href="https://wa.me/0200447790" target="_blank"
@@ -94,7 +97,18 @@
                 ></a>
               </li>
             </ul>
+          
+          <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>          
           </div>
+
+          </div>
+          </div>
+
+          
+
         </div>
 
         <!-- BANNER SECTION -->
@@ -263,5 +277,17 @@
         </div>
       </div>
     </section>
+
+    <script>
+      hamburger = document.querySelector(".hamburger");
+      hamburger.onclick = function() {
+        navBar = document.querySelector(".nav-bar");
+        navBar.classList.toggle("active");
+      }
+    </script>
+
+    <script src="assets/js/hamburger.js"></script>
+
+
   </body>
 </html>
