@@ -377,7 +377,7 @@ video {
 
 /* MEDIA QUERIES FOR ALL SCREEN */
 
-@media (min-width: 1281px) {
+@media (min-width: 1367px) {
     .container {
     padding: 0 25%;
     width: 100%;
