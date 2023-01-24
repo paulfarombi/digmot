@@ -180,7 +180,7 @@ header nav ul li a:hover {
 }
 
 .banner .container h1 span {
-  color: var(--blue);
+  color: var(--main-color);
 }
 
 .banner .container h4 {
@@ -319,14 +319,14 @@ video {
   width: 100%;
   display: flex;
   justify-content: center;
-  padding: 15px;
+  padding: 15px 0;
   text-align: center;
 }
 
 .testimony .container .testimonials {
-  border: 2px solid var(--blue);
+  border-radius: 10px;
   padding: 10px;
-  background-color: var(--blue);
+  background-color: var(--main-color);
   color: var(--bg);
 }
 
@@ -348,14 +348,13 @@ video {
 }
 
 .testimony .testimonials p q {
-  background: var(--blue);
-  color: var(--bg);
+  padding: 5px;
 }
 
 /* WHY-CHOOSE SECTION */
 .choose {
   width: 100%;
-  /* text-align: center; */
+  text-align: center;
 }
 
 .choose h3 {
@@ -370,7 +369,7 @@ video {
 }
 
 .choose .why-us {
-  padding: 20px 120px;
+  padding: 20px 80px;
   width: 100%;
 }
 
@@ -433,6 +432,7 @@ video {
 .expertise {
   width: 100%;
   /* border-top: 2px solid rgba(32, 31, 31, 0.4); */
+  padding-bottom: 30px;
 }
 
 .expertise h3 {
@@ -449,16 +449,37 @@ video {
 .expertise .row {
   display: flex;
   width: 100%;
-  padding: 30px 80px;
+  padding: 10px 80px;
 }
 
-.expertise .row .expert:not(:last-child) {
-  padding-right: 20px;
-}
 
 .expertise .row a {
   color: var(--main-color);
   font-weight: bold;
+}
+
+.expert {
+  border: 1px solid var(--main-color);
+  padding: 15px 10px;
+}
+
+.expertise .expert:not(:last-child) {
+  margin-right: 10px;
+}
+.expertise .expert:not(:first-child) {
+  margin-left: 10px;
+}
+.expertise .expert .exp {
+  display: flex;
+  padding-bottom: 10px;
+}
+
+.expert .exp img {
+  width: 30%;
+  /* object-fit: cover; */
+}
+.expert .exp a {
+  padding-left: 20px;
 }
 
 .grow-business {
@@ -492,6 +513,65 @@ video {
   border-radius: 10px;
 }
 
+/* FOOTER SECTION */
+footer {
+  width: 100%;
+}
+footer .foot-col h4 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: var(--main-color);
+}
+footer .foot-col h4 span {
+  padding-bottom: 3px;
+  border-bottom: 2px solid var(--main-color);
+}
+
+footer .foot-col a {
+  color: var(--black);
+
+}
+
+footer .foot-col a:hover {
+  color: var(--main-color);
+  padding-bottom: 5px;
+}
+
+footer .row {
+  width: 100%;
+  padding: 30px 80px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 3px solid var(--main-color);
+}
+
+footer .logo-footer {
+  width: 35%;
+  padding-bottom: 20px;
+}
+footer .logo-footer img {
+  width: 80px;
+  height: 100px;
+}
+
+footer .office-footer {
+  padding: 20px 0;
+}
+
+footer .footer-media {
+  display: inline-flex;
+}
+footer .footer-media li {
+  font-size: 24px;
+}
+footer .footer-media li:not(:last-child) {
+  padding-right: 10px;
+}
+footer .footer-media li a {
+  color: var(--main-color);
+}
+
 
 
 
@@ -499,7 +579,7 @@ video {
 
 /* MEDIA QUERIES FOR ALL SCREEN */
 
-@media (min-width: 1367px) {
+@media (min-width: 1440px) {
   .container {
     padding: 0 25%;
     width: 100%;
@@ -622,8 +702,13 @@ video {
   .hamburger .line:not(:last-child) {
     margin: 0 0 5px;
   }
+  footer .logo-footer {
+    width: auto;
+  }
 }
 
+
+/* SCREEN 320px - 767px */
 @media (min-width: 320px) and (max-width: 767px) {
   header .nav-bar ul li {
     padding: 10px;
@@ -636,13 +721,14 @@ video {
   .team-more-info .row {
     display: block;
   }
-
-  .team-more-info .row .team-read-more:not(:last-child) {
-    padding-right: 0;
-  }
+  
   .team-more-info .team-read-more {
     padding: 15px;
   }
+  .team-more-info .row .team-read-more:not(:last-child) {
+    padding-right: 15px;
+  }
+
   .expertise h3 {
     padding: 20px 0;
     font-size: 26px;
@@ -650,11 +736,38 @@ video {
   .expertise .row {
     display: block;
     width: 100%;
-    padding: 15px 30px;
+    padding: 0 30px;
   }
   .expertise .expert {
-    padding-bottom: 20px;
+    margin-bottom: 20px;
   }
+  .expertise .expert:not(:first-child) {
+    margin-left: 0;
+  }
+
+  .expertise .expert:not(:last-child) {
+    margin-right: 0;
+  }
+
+  .expertise .expert .exp {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .expert .exp img {
+    width: 100px;
+    height: 80px;
+    padding-bottom: 10px;
+    /* object-fit: cover; */
+  }
+  .expert .exp a {
+    padding-left: 0;
+    width: 100%;
+  }
+  
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -673,7 +786,7 @@ video {
   }
 
   .banner .container h1 span {
-    color: var(--blue);
+    color: var(--main-color);
   }
 
   .banner .container h4 {
@@ -725,7 +838,7 @@ video {
 
   /* TESTIMONIAL SECTION */
   .testimony .row {
-    padding: 0 60px;
+    padding: 0 30px;
   }
 
   .testimony .container .test-row {
@@ -734,18 +847,18 @@ video {
 
   /* WHY-CHOOSE SECTION */
   .choose h3 {
-    font-size: 30px;
+    font-size: 28px;
   }
   .choose .why-us {
-    padding: 20px 60px;
+    padding: 20px 40px;
   }
 
   .choose .why-us .choose-info {
-    padding: 0 30px;
+    padding: 0 20px;
   }
 
   .choose .our-team {
-    padding: 20px;
+    padding: 15px 10px;
     display: flex;
   }
   .choose .our-team .meet-team {
@@ -761,7 +874,11 @@ video {
   .expertise .row {
     display: flex;
     width: 100%;
-    padding: 20px 60px;
+    padding: 20px 40px;
+  }
+  footer .row {
+    width: 100%;
+    padding: 30px 60px;
   }
 }
 
@@ -918,7 +1035,7 @@ video {
   }
 
   .testimony .testimonials p q {
-    background: var(--blue);
+    /* background: var(--blue); */
     color: var(--bg);
   }
 
@@ -933,12 +1050,12 @@ video {
   }
 
   .choose .why-us {
-    padding: 10px 30px;
+    padding: 10px 20px;
     width: 100%;
   }
 
   .choose .why-us .choose-info {
-    padding: 0 30px;
+    padding: 0 20px;
   }
 
   .choose .choose-info p {
@@ -947,7 +1064,7 @@ video {
   }
 
   .choose .our-team {
-    padding: 20px;
+    padding: 15px 0;
     display: block;
   }
 
@@ -961,7 +1078,31 @@ video {
 
   .choose .our-team .meet-team {
     width: 100%;
-    padding-left: 20px;
+    padding: 15px;
+  }
+  .team-read-more {
+    padding-left: 0;
+  }
+
+  /* FOOTER SECTION */
+  footer .row {
+    width: 100%;
+    padding: 20px 30px;
+    display: block;
+    overflow: hidden;
+  }
+  footer .logo-footer {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  footer .foot-col {
+    width: 50%;
+    float: left;
+    justify-content: space-between;
+  }
+  footer .office-footer {
+    padding-top: 0;
   }
 }
 
@@ -1129,7 +1270,7 @@ video {
   }
 
   .choose .why-us {
-    padding: 10px 20px;
+    padding: 10px 15px;
     width: 100%;
   }
 
@@ -1160,6 +1301,10 @@ video {
     padding-left: 20px;
   }
 
+  .expertise .row {
+    padding: 15px;
+  }
+
   .grow-business .grow-business-info h5 {
     font-size: 35px;
   }
@@ -1174,6 +1319,30 @@ video {
   }
   .grow-business .grow-business-info a {
     font-size: 16px;
+  }
+
+  /* FOOTER SECTION */
+  footer .row {
+    width: 100%;
+    padding: 20px;
+    display: block;
+    overflow: hidden;
+  }
+  footer .logo-footer {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  footer .foot-col {
+    width: 50%;
+    float: left;
+    justify-content: space-between;
+  }
+  footer .foot-col h4 {
+    font-size: 20px;
+  }
+  footer .office-footer {
+    padding-top: 0;
   }
 }
 
@@ -1344,7 +1513,7 @@ video {
   }
 
   .choose .why-us .choose-info {
-    padding: 0 20px;
+    padding: 0 10px;
   }
 
   .choose .choose-info p {
@@ -1367,6 +1536,23 @@ video {
 
   .choose .our-team .meet-team {
     width: 100%;
-    padding-left: 20px;
+    padding: 10px;
+  }
+  .choose .our-team .meet-team h4 {
+    padding: 10px;
+  }
+  /* FOOTER SECTION */
+  footer .row {
+    width: 100%;
+    padding: 15px;
+    display: block;
+    overflow: hidden;
+    align-items: center;
+    text-align: center;
+  }
+
+  footer .foot-col h4 {
+    font-size: 20px;
+    margin-top: 10px;
   }
 }
