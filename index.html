@@ -102,12 +102,14 @@
                 /></a>
               </li>
               <li>
-                <a href="#"
+                <a href="#" onclick="myFunction()"
                   ><i class="fa-sharp fa-solid fa-magnifying-glass"></i
                 ></a>
-                <div class="search-wrapper">
-                  <input type="search" placeholder="Search" id="search">
-                </div>
+                <form action="https://www.google.com/search" method="get" target="_blank" class="search-bar" id="searchBar">
+                  <input type="search " placeholder="search anything" id="search">
+                  <button type="submit"><i class="fa-sharp fa-solid fa-magnifying-glass"></i
+                    ></button>
+                </form>
               </li>
             </ul>
           
@@ -129,8 +131,8 @@
           <div class="container">
             <h1>RESULTS <span>ORIENTED</span></h1>
             <h4>DIGITAL MARKETING AGENCY</h4>
-            <a href="#"
-              >GET OUR FREE PROPOSAL >></i
+            <a href="contact.html"
+              >GET OUR FREE PROPOSAL <i class="fa-solid fa-angles-right"></i></i
             ></a>
 
           </div>
@@ -351,8 +353,8 @@
 
           <div class="expert">
             <div class="exp">
-              <img src="#" alt="search engine">
-            <a href="Images/brand.png">BRAND IDENTITY ></a>
+              <img src="Images/brand.png" alt="search engine">
+            <a href="#">BRAND IDENTITY ></a>
             </div>
             
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga dolore laborum sunt? Dolorum, corrupti animi.</p>
@@ -360,7 +362,7 @@
 
           <div class="expert">
             <div class="exp">
-              <img src="#" alt="designs">
+              <img src="Images/animation.png" alt="designs">
             <a href="#">VIDEO ANIMATION ></a>
             </div>
             
@@ -400,7 +402,7 @@
 
           <div class="expert">
             <div class="exp">
-              <img src="#" alt="network">
+              <img src="Images/qrcode.png" alt="network">
             <a href="#">CUSTOMISED LOGO QR CODE ></a>
             </div>
             
@@ -424,7 +426,7 @@
     </section>
 
     <!-- FOOTER SECTION -->
-    <footer>
+    <footer class="cont-footer">
       <div class="container">
         <div class="row">
           
@@ -515,6 +517,7 @@
     </script>
 
     <script src="assets/js/hamburger.js"></script>
+    <script src="assets/js/search.js"></script>
 
 
   </body>
