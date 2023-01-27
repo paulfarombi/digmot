@@ -3,6 +3,10 @@
   font-family: proxima-nova-bold;
   src: url(../fonts/FontsFree-Net-Proxima-Nova-Xbold.otf);
 }
+@font-face {
+  font-family: verdana;
+  src: url(../fonts/VERDANA.TTF);
+}
 
 @font-face {
   font-family: proxima-nova;
@@ -53,8 +57,8 @@ a {
 
 header {
   width: 100%;
-  background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.9)),
-    url(../image/banner.jpg);
+  background-image: 
+    url(../image/about-banner.png);
   /* background-image: url(../image/banner.jpg); */
   background-size: cover;
   background-position: center;
@@ -64,21 +68,23 @@ header {
   -moz-transition: all 0.3s ease-in-out 0s;
   -o-transition: all 0.3s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s;
-  padding: 10px 60px;
   height: 600px;
   overflow: hidden;
 }
 
 header .container .header-cont {
   width: 100%;
-  padding: 0 20px;
+  padding: 10px 80px;
   display: flex;
   color: var(--main-color);
   text-align: center;
   justify-content: space-between;
   align-items: center;
+  font-family: verdana, sans-serif;
 }
-
+.home .header-cont {
+  background-color: rgb(255, 255, 255, 0.7);
+}
 header .container .logo img {
   width: 50px;
 }
@@ -237,7 +243,7 @@ header nav ul li a:hover {
 .banner .container a {
   padding: 18px 24px;
   border-radius: 28px;
-  background-color: var(--orange);
+  background-color: var(--main-color);
   color: var(--bg);
   font-size: 22px;
   font-weight: bolder;
@@ -249,8 +255,8 @@ header nav ul li a:hover {
 
 .banner .container a:hover {
   background-color: var(--bg);
-  border: 2.5px solid var(--orange);
-  color: var(--orange);
+  border: 3px solid var(--main-color);
+  color: var(--main-color);
 }
 
 /* MEDIA REVIEWS */
@@ -375,6 +381,7 @@ video {
 .testimony .container .testimonials {
   border-radius: 10px;
   padding: 10px;
+  /* background-color: var(--blue); */
   background-color: var(--main-color);
   color: var(--bg);
 }
@@ -464,7 +471,7 @@ video {
 .team-more-info .team-read-more .team-par-head {
   font-size: 18px;
   font-weight: bold;
-  background-color: #cc9966;
+  background-color: var(--blue);
   padding: 5px;
   margin: 0 5px 15px;
   text-align: center;

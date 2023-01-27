@@ -261,6 +261,10 @@
     .find-us .find-col-2 ul {
       padding-bottom: 20px;
     }
+
+    .about-history .row {
+      display: block;
+    }
   
   }
   
