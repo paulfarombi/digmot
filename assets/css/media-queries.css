@@ -487,6 +487,43 @@
   .about-core-values .value-head .value-icon {
     width: 20%;
   }
+
+  /* BRAND IDENTITY PAGE */
+
+.brand-identity {
+  padding: 20px 30px;
+}
+
+.brand-identity h2 {
+  font-size: 32px;
+}
+.brand-identity .brand-head p {
+  width: 100%;
+  border-bottom: 2px solid var(--main-color);
+  text-align: center;
+  align-self: center; 
+}
+.brand-identity .fa-caret-down {
+  font-size: 28px; 
+}
+.brand-identity .brand-content {
+  display: block;
+}
+.brand-identity .brand-content .branding-img {
+  width: 100%;
+  margin-right: 0;
+}
+.brand-identity .brand-content .branding-img img {
+  width: 100%;
+}
+.brand-identity .brand-content .branding-text {
+  width: 100%;
+  margin: 0;
+  padding: 10px;
+}
+.brand-identity .brand-content .branding-text h3 {
+  font-size: 20px;
+}
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
