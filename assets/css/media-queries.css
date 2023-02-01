@@ -194,6 +194,7 @@
 
   #nice h1 {
     padding-top: 120px;
+    font-size: 46px;
   }
   #nicer h1 {
     padding-top: 50px;
@@ -594,6 +595,9 @@
   .watch-videos .row {
     padding: 30px 60px;
   }
+  video {
+    height: 300px;
+  }
 
   /* TESTIMONIAL SECTION */
   .testimony .row {
@@ -781,7 +785,7 @@
   }
 
   .media-reviews .medias h2 {
-    font-size: 25px;
+    font-size: 30px;
   }
 
   .media-reviews .medias .stars {
@@ -975,14 +979,13 @@
   /* CSS */
 
   header {
-    padding: 8px 15px;
     height: 400px;
     overflow: hidden;
   }
 
   header .container .header-cont {
     width: 100%;
-    padding: 0 15px;
+    padding: 8px 15px;
   }
 
   header .container .logo img {
@@ -1018,8 +1021,8 @@
   }
 
   .banner .container h1 {
-    font-size: 35px;
-    padding-top: 40px;
+    font-size: 32px;
+    padding-top: 20px;
   }
 
   .banner .container h4 {
@@ -1171,7 +1174,7 @@
   }
 
   .expertise .row {
-    padding: 15px;
+    padding: 0 15px;
   }
 
   .grow-business .grow-business-info h5 {
@@ -1227,6 +1230,10 @@
 }
 
 @media (max-width: 480px) {
+
+  video {
+    height: 300px;
+  }
   .different .row {
     padding: 10px;
     display: flex;
@@ -1300,6 +1307,20 @@
   .about-core-values .value-content p {
     font-size: 16px;
   }
+  .all-services {
+    padding: 15px 25px 15px 5px;
+}
+.all-services .all-services-head h2 {
+  font-size: 18px;
+}
+
+.all-services .row .service-list {
+  cursor: pointer;
+  margin: 0x;
+}
+.service-text {
+  padding: 10px;
+}
 }
 
 @media (max-width: 375px) {
@@ -1319,6 +1340,10 @@
 
   .head-info ul li:not(:last-child) {
     padding-right: 15px;
+  }
+
+  #nice h1 {
+    font-size: 38px;
   }
 
   .hamburger {
@@ -1346,12 +1371,12 @@
   }
 
   .banner .container h1 {
-    font-size: 24px;
+    font-size: 26px;
     padding-top: 10px;
   }
 
   .banner .container h4 {
-    font-size: 15px;
+    font-size: 16px;
     padding-bottom: 20px;
   }
 

@@ -189,6 +189,9 @@ header nav ul li a:hover {
 #main {
   color: var(--main-color);
 }
+.head-info form {
+  display: none;
+}
 .search-bar button {
   margin-left: -8px;
   background-color: var(--bg);
@@ -352,6 +355,8 @@ video {
   height: 400px;
   object-fit: contain;
 }
+
+
 
 /* TESTIMONIAL SECTION */
 .testimony {
