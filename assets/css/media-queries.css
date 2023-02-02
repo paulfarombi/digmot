@@ -157,8 +157,12 @@
     background-color: var(--bg);
   }
 
-  .about-page .hamburger .line:hover {
-    background-color: var(--main-color);
+  .about-page .hamburger .line {
+    background-color: var(--bg);
+  }
+
+  .service-page .hamburger .line {
+    background-color: var(--bg);
   }
 
   .contact-page .nav-bar .nav-link {
@@ -169,8 +173,8 @@
     background-color: var(--bg);
   }
 
-  .contact-page .hamburger .line:hover {
-    background-color: var(--main-color);
+  .contact-form .msg-head {
+    padding: 20px 40px;
   }
 
   footer .logo-footer {
@@ -193,15 +197,18 @@
   }
 
   #nice h1 {
-    padding-top: 120px;
     font-size: 46px;
   }
   #nicer h1 {
-    padding-top: 50px;
+    padding-top: 0;
   }
   #nicer h4 {
     font-size: 12px;
     padding: 0 30px 20px;
+  }
+
+  .head-info ul li a img {
+    width: 42px;
   }
 
   .choose .our-team .team-img {
@@ -221,7 +228,7 @@
   }
 
   .expertise h3 {
-    padding: 20px 0;
+    padding: 20px 15px;
     font-size: 26px;
   }
 
@@ -491,40 +498,40 @@
 
   /* BRAND IDENTITY PAGE */
 
-.brand-identity {
-  padding: 20px 30px;
-}
+  .brand-identity {
+    padding: 20px 30px;
+  }
 
-.brand-identity h2 {
-  font-size: 32px;
-}
-.brand-identity .brand-head p {
-  width: 100%;
-  border-bottom: 2px solid var(--main-color);
-  text-align: center;
-  align-self: center; 
-}
-.brand-identity .fa-caret-down {
-  font-size: 28px; 
-}
-.brand-identity .brand-content {
-  display: block;
-}
-.brand-identity .brand-content .branding-img {
-  width: 100%;
-  margin-right: 0;
-}
-.brand-identity .brand-content .branding-img img {
-  width: 100%;
-}
-.brand-identity .brand-content .branding-text {
-  width: 100%;
-  margin: 0;
-  padding: 10px;
-}
-.brand-identity .brand-content .branding-text h3 {
-  font-size: 20px;
-}
+  .brand-identity h2 {
+    font-size: 32px;
+  }
+  .brand-identity .brand-head p {
+    width: 100%;
+    border-bottom: 2px solid var(--main-color);
+    text-align: center;
+    align-self: center;
+  }
+  .brand-identity .fa-caret-down {
+    font-size: 28px;
+  }
+  .brand-identity .brand-content {
+    display: block;
+  }
+  .brand-identity .brand-content .branding-img {
+    width: 100%;
+    margin-right: 0;
+  }
+  .brand-identity .brand-content .branding-img img {
+    width: 100%;
+  }
+  .brand-identity .brand-content .branding-text {
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+  }
+  .brand-identity .brand-content .branding-text h3 {
+    font-size: 20px;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -533,13 +540,22 @@
     height: 500px;
   }
 
-  .banner .container {
-    top: 80%;
+  header .container .header-cont {
+    padding: 20px 80px;
   }
 
-  .banner .container h1 {
+  header .container .logo img {
+    padding-top: 10px;
+  }
+
+  /* BANNER SECTION */
+  .banner {
+    padding: 120px 60px 0;
+  }
+
+  .banner .banner-content h1 {
     font-size: 65px;
-    padding-top: 40px;
+    line-height: 65px;
   }
   #nice .container h1 {
     font-size: 76px;
@@ -549,20 +565,15 @@
     color: var(--main-color);
   }
 
-  .banner .container h4 {
-    font-size: 30px;
-    padding-bottom: 30px;
+  .banner .banner-content h4 {
+    font-size: 33px;
+    line-height: 33px;
+    margin-bottom: 5px;
   }
 
-  .banner .container a {
-    padding: 15px 25px;
-    font-size: 21px;
-  }
-
-  .banner .container a:hover {
-    background-color: var(--bg);
-    border: 2.5px solid var(--orange);
-    color: var(--orange);
+  .banner .banner-content .banner-link a {
+    padding: 18px 24px;
+    font-size: 18px;
   }
 
   /* MEDIA REVIEWS */
@@ -572,19 +583,26 @@
   }
 
   .media-reviews .medias h2 {
-    font-size: 30px;
-    padding-bottom: 3px;
+    font-size: 40px;
+    line-height: 40px;
+    padding-bottom: 8px;
+  }
+  .media-reviews .medias .stars {
+    font-size: 18px;
+    line-height: 18px;
   }
 
   .media-reviews .medias span {
     padding-top: 0px;
     font-size: 18px;
+    font-weight: 600;
   }
 
   /* GET CLIENT RESULT SECTION */
   .result-client h3 {
     font-size: 40px;
-    padding: 30px 0;
+    padding: 20px 0;
+    font-weight: 100;
   }
 
   /* Watch Video Section */
@@ -608,9 +626,15 @@
     padding: 0;
   }
 
+  .testimony .container h3 {
+    font-size: 40px;
+    padding: 20px 0;
+  }
+
   /* WHY-CHOOSE SECTION */
   .choose h3 {
-    font-size: 28px;
+    font-size: 35px;
+    padding: 20px;
   }
 
   .choose .why-us {
@@ -706,10 +730,16 @@
   .about-vision .vision-content .vision-content-text {
     width: 100%;
     padding: 10px 40px;
+    margin-top: 140px;
   }
   .about-mission,
   .about-core-values {
     padding: 20px 30px;
+  }
+
+  /* SERVICE PAGE */
+  .service-page .container p {
+    font-size: 18px;
   }
 }
 
@@ -723,7 +753,7 @@
 
   header .container .header-cont {
     width: 100%;
-    padding: 10px 20px;
+    padding: 20px;
   }
 
   header .container .logo img {
@@ -750,30 +780,31 @@
 
   /* BANNER SECTION */
 
-  .banner .container {
-    padding: 50px;
+  .banner {
+    padding: 80px 30px 0;
   }
 
-  .banner .container h1 {
-    font-size: 40px;
-    padding-top: 25px;
+  .banner .banner-content h1 {
+    font-size: 46px;
+    line-height: 46px;
+  }
+  #nice .container h1 {
+    font-size: 76px;
   }
 
-  .banner .container h4 {
-    font-size: 25px;
-    color: var(--bg);
-    padding-bottom: 25px;
-  }
-
-  .banner .container a {
-    padding: 13px 22px;
+  .banner .banner-content h4 {
     font-size: 22px;
+    line-height: 22px;
+  }
+
+  .banner .banner-content .banner-link a {
+    padding: 17px 16px;
+    font-size: 17px;
   }
 
   /* MEDIA REVIEWS */
   .media-reviews {
-    width: 100%;
-    padding: 10px 20px;
+    padding: 20px 0;
   }
 
   .media-reviews .row {
@@ -781,35 +812,38 @@
   }
 
   .media-reviews .medias {
-    padding-bottom: 20px;
+    padding-bottom: 15px;
   }
 
   .media-reviews .medias h2 {
-    font-size: 30px;
+    font-size: 40px;
   }
 
   .media-reviews .medias .stars {
-    font-size: 14px;
+    font-size: 18px;
+    line-height: 18px;
   }
 
   .media-reviews .medias ul li:not(:last-child) {
-    padding-right: 5px;
+    padding-right: 4px;
   }
 
   .media-reviews .medias span {
-    padding-top: 10px;
-    font-size: 16px;
+    padding-top: 0;
+    font-size: 18px;
     font-weight: bold;
   }
 
   /* GET CLIENT RESULT SECTION */
   .result-client h3 {
     font-size: 35px;
+    padding: 20px 0;
   }
 
   /* Watch Video Section */
   .watch-videos {
     width: 100%;
+    padding: 20px 0;
   }
 
   .watch-videos .row {
@@ -837,7 +871,7 @@
 
   .testimony .container h3 {
     font-size: 28px;
-    padding: 20px;
+    padding: 20px 0;
   }
 
   .testimony .container .test-row {
@@ -878,8 +912,8 @@
   }
 
   .choose h3 {
-    font-size: 26px;
-    padding: 15px 0;
+    font-size: 28px;
+    padding: 20px;
   }
 
   .choose .why-us {
@@ -901,7 +935,7 @@
     display: block;
   }
 
-  .choose.our-team .team-img {
+  .choose .our-team .team-img {
     width: 100%;
   }
 
@@ -917,6 +951,16 @@
 
   .team-read-more {
     padding-left: 0;
+  }
+
+  .team-more-info .team-read-more .team-par-head {
+    font-size: 18px;
+    padding: 5px;
+    margin: 0 100px 15px;
+  }
+  .grow-business .grow-business-info p {
+    font-size: 18px;
+    padding: 45px 15px 20px;
   }
 
   .contact-form form {
@@ -985,7 +1029,7 @@
 
   header .container .header-cont {
     width: 100%;
-    padding: 8px 15px;
+    padding: 12px 20px;
   }
 
   header .container .logo img {
@@ -993,14 +1037,14 @@
   }
 
   .head-info ul li:not(:last-child) {
-    padding-right: 15px;
+    padding-right: 20px;
   }
 
   .hamburger {
     display: block;
     cursor: pointer;
     color: #044d78;
-    padding-left: 15px;
+    padding-left: 20px;
   }
 
   .hamburger .line {
@@ -1011,33 +1055,37 @@
   }
 
   .hamburger .line:not(:last-child) {
-    margin: 0 0 5px;
+    margin: 8px 0 8px;
   }
 
   /* BANNER SECTION */
 
-  .banner .container {
-    padding: 70px 30px 20px;
+  .banner {
+    padding: 80px 20px 0;
   }
 
-  .banner .container h1 {
-    font-size: 32px;
-    padding-top: 20px;
+  .banner .banner-content h1 {
+    font-size: 35px;
+    line-height: 35px;
   }
 
-  .banner .container h4 {
-    font-size: 20px;
-    padding-bottom: 20px;
+  .banner .banner-content h4 {
+    font-size: 19px;
+    line-height: 19px;
+    margin-bottom: 10px;
   }
 
-  .banner .container a {
-    padding: 10px 15px;
+  .banner .banner-content .banner-link a {
+    padding: 17px 16px;
     font-size: 17px;
+  }
+  .service-page .banner p {
+    font-size: 16px;
   }
 
   /* MEDIA REVIEWS */
   .media-reviews {
-    padding: 10px 15px;
+    padding: 20px 0;
   }
 
   .media-reviews .row {
@@ -1049,11 +1097,12 @@
   }
 
   .media-reviews .medias h2 {
-    font-size: 22px;
+    font-size: 38px;
   }
 
   .media-reviews .medias .stars {
-    font-size: 14px;
+    font-size: 19px;
+    line-height: 19px;
   }
 
   .media-reviews .medias ul li:not(:last-child) {
@@ -1061,8 +1110,8 @@
   }
 
   .media-reviews .medias span {
-    padding-top: 8px;
-    font-size: 15px;
+    padding-top: 0;
+    font-size: 19px;
     font-weight: bold;
   }
 
@@ -1095,7 +1144,7 @@
   }
 
   .testimony .row {
-    padding: 0 15px;
+    padding: 0 20px;
   }
 
   .testimony .container h3 {
@@ -1137,29 +1186,30 @@
 
   .choose h3 {
     font-size: 24px;
-    padding: 10px;
+    padding: 20px;
   }
 
   .choose .why-us {
-    padding: 10px 15px;
+    padding: 10px 20px;
     width: 100%;
   }
 
   .choose .why-us .choose-info {
-    padding: 0 20px;
+    padding: 10px;
   }
 
   .choose .choose-info p {
     font-size: 15px;
     line-height: 1.5;
+    text-align: justify;
   }
 
   .choose .our-team {
-    padding: 10px;
+    padding: 0;
     display: block;
   }
 
-  .choose.our-team .team-img {
+  .choose .our-team .team-img {
     width: 100%;
   }
 
@@ -1170,11 +1220,24 @@
 
   .choose .our-team .meet-team {
     width: 100%;
-    padding-left: 20px;
+    padding: 10px;
+  }
+  .choose .our-team .meet-team p {
+    text-align: justify;
+    padding: 0 10px;
+  }
+  .team-read-more {
+    padding-left: 0;
+  }
+
+  .team-more-info .team-read-more .team-par-head {
+    font-size: 18px;
+    padding: 5px;
+    margin: 0 60px 15px;
   }
 
   .expertise .row {
-    padding: 0 15px;
+    padding: 0 20px;
   }
 
   .grow-business .grow-business-info h5 {
@@ -1230,7 +1293,9 @@
 }
 
 @media (max-width: 480px) {
-
+  .contact-form .msg-head h2 {
+    font-size: 30px;
+  }
   video {
     height: 300px;
   }
@@ -1309,18 +1374,21 @@
   }
   .all-services {
     padding: 15px 25px 15px 5px;
-}
-.all-services .all-services-head h2 {
-  font-size: 18px;
+  }
+  .all-services .all-services-head h2 {
+    font-size: 17px;
+  }
+  .all-services .all-services-head a {
+    font-size: 16px;
 }
 
-.all-services .row .service-list {
-  cursor: pointer;
-  margin: 0x;
-}
-.service-text {
-  padding: 10px;
-}
+  .all-services .row .service-list {
+    cursor: pointer;
+    margin: 0x;
+  }
+  .service-text {
+    padding: 10px;
+  }
 }
 
 @media (max-width: 375px) {
@@ -1366,24 +1434,29 @@
 
   /* BANNER SECTION */
 
-  .banner .container {
-    padding: 70px 30px 20px;
+  .banner {
+    padding: 90px 15px 0;
   }
 
-  .banner .container h1 {
-    font-size: 26px;
-    padding-top: 10px;
+  .banner .banner-content h1 {
+    font-size: 28px;
+    line-height: 28px;
   }
 
-  .banner .container h4 {
-    font-size: 16px;
-    padding-bottom: 20px;
+  .banner .banner-content h4 {
+    font-size: 17px;
+    line-height: 17px;
+    margin-bottom: 10px;
   }
 
-  .banner .container a {
-    padding: 8px 10px;
-    font-size: 13px;
+  .banner .banner-content .banner-link a {
+    padding: 16px 15px;
+    font-size: 15px;
   }
+  .service-page .banner p {
+    font-size: 14px;
+  }
+
 
   /* MEDIA REVIEWS */
   .media-reviews {
@@ -1487,7 +1560,7 @@
 
   .choose h3 {
     font-size: 22px;
-    padding: 10px;
+    padding: 15px;
   }
 
   .choose .why-us {
@@ -1502,14 +1575,15 @@
   .choose .choose-info p {
     font-size: 15px;
     line-height: 1.5;
+    text-align: justify;
   }
 
   .choose .our-team {
-    padding: 10px;
+    padding: 0;
     display: block;
   }
 
-  .choose.our-team .team-img {
+  .choose .our-team .team-img {
     width: 100%;
   }
 
@@ -1526,6 +1600,10 @@
   .choose .our-team .meet-team h4 {
     padding: 10px;
   }
+
+  .expertise .row {
+    padding: 0 15px;
+}
 
   .grow-business .grow-business-info h5 {
     font-size: 20px;
