@@ -200,7 +200,6 @@
 
 /* SCREEN 320px - 767px */
 @media (min-width: 320px) and (max-width: 767px) {
-  
   header .nav-bar ul li {
     padding: 10px;
   }
@@ -586,7 +585,6 @@
     font-size: 76px;
   }
 
-
   .banner .container h1 span {
     color: var(--main-color);
   }
@@ -634,6 +632,10 @@
   .result-client .row {
     width: 100%;
     padding: 30px 60px;
+  }
+
+  .result-client .hvideo-content q {
+    font-size: 23px;
   }
 
   video {
@@ -875,6 +877,10 @@
 
   .result-client .row .video-right {
     margin-left: 0;
+  }
+
+  .result-client .hvideo-content q {
+    font-size: 23px;
   }
 
   /* TESTIMONIAL SECTION */
@@ -1153,6 +1159,9 @@
   .result-client .row .video-right {
     margin-left: 0;
   }
+  .result-client .hvideo-content q {
+    font-size: 22px;
+  }
 
   /* TESTIMONIAL SECTION */
   .testimony {
@@ -1309,6 +1318,12 @@
 }
 
 @media (max-width: 480px) {
+  .result-client .hvideo-content .tarrif-cont .tarrif {
+    font-size: 35px;
+}
+.result-client .hvideo-content .tarrif-cont .tarrif span {
+  font-size: 16px;
+}
   .contact-form .msg-head h2 {
     font-size: 30px;
   }
@@ -1399,12 +1414,12 @@
   .all-services .row {
     padding: 20px 0;
     display: grid;
-    grid-template-columns: repeat( auto-fit, minmax(280px, 1fr) );
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     object-fit: contain;
   }
   .all-services .all-services-head a {
     font-size: 16px;
-}
+  }
 
   .all-services .row .service-list {
     cursor: pointer;
@@ -1480,7 +1495,6 @@
     font-size: 14px;
   }
 
-
   /* MEDIA REVIEWS */
   .media-reviews {
     padding: 10px 15px;
@@ -1518,7 +1532,6 @@
   }
 
   /* Watch Video Section */
-  
 
   .result-client .row {
     padding: 10px 15px;
@@ -1530,6 +1543,10 @@
 
   .result-client .row .video-right {
     margin-left: 0;
+  }
+
+  .result-client .hvideo-content q {
+    font-size: 20px;
   }
 
   /* TESTIMONIAL SECTION */
@@ -1623,7 +1640,7 @@
 
   .expertise .row {
     padding: 0 15px;
-}
+  }
 
   .grow-business .grow-business-info h5 {
     font-size: 20px;
@@ -1641,7 +1658,7 @@
 
   .about-content .about-content-head h2 {
     font-size: 24px;
-}
+  }
 
   .contact-form form {
     padding: 15px;
@@ -1649,10 +1666,10 @@
 
   .contact-form .msg-head h2 {
     font-size: 26px;
-}
-.contact-form .msg-head p {
-  font-size: 14px;
-}
+  }
+  .contact-form .msg-head p {
+    font-size: 14px;
+  }
 
   /* FOOTER SECTION */
   footer .row {

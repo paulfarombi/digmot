@@ -370,7 +370,7 @@ header nav ul li a:hover {
 .result-client .hvideo-content q {
   background-color: var(--main-color);
   width: 100%;
-  padding: 10px 20px 15px;
+  padding: 10px 10px 15px;
   color: var(--bg);
   font-size: 25px;
   font-weight: bold;
