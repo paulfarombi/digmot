@@ -92,6 +92,10 @@
     height: auto;
   }
 
+  .nav-bar {
+    z-index: 1;
+  }
+
   .nav-bar ul {
     display: block;
     text-align: center;
@@ -102,6 +106,7 @@
   .nav-bar.active ul {
     opacity: 1;
     align-items: center;
+    z-index: 2;
   }
 
   header .nav-bar ul li {
