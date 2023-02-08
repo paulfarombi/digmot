@@ -1647,6 +1647,13 @@
     padding: 15px;
   }
 
+  .contact-form .msg-head h2 {
+    font-size: 26px;
+}
+.contact-form .msg-head p {
+  font-size: 14px;
+}
+
   /* FOOTER SECTION */
   footer .row {
     width: 100%;
