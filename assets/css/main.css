@@ -191,7 +191,7 @@ header nav ul li a:hover {
   font-size: 18px;
   font-weight: 100;
   position: absolute;
-  margin-left: -210px;
+  margin-left: -220px;
   border-color: #044d78;
 }
 .search-bar ::placeholder {
