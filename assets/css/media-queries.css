@@ -33,6 +33,9 @@
   .nav-bar ul li:hover .nav-sub ul li a:hover {
     color: var(--blue);
   }
+  .choose h3 {
+    padding: 25px 80px 20px;
+  }
   .service-page .nav-bar .nav-link {
     color: var(--bg);
   }
@@ -452,9 +455,9 @@
   }
   .about-content .about-content-head h2 {
     font-size: 26px;
-}
+  }
   .about-history .history-content p {
-    font-size: 17px;
+    font-size: 16.5px;
     padding: 10px;
     text-align: justify;
   }
@@ -611,7 +614,7 @@
   }
 
   .media-reviews .medias h2 {
-    font-size: 40px;
+    font-size: 35px;
     line-height: 40px;
     padding-bottom: 8px;
   }
@@ -628,14 +631,14 @@
 
   /* GET CLIENT RESULT SECTION */
   .result-client h3 {
-    font-size: 40px;
+    font-size: 30px;
     padding: 20px 0;
     font-weight: 100;
   }
 
   .result-client .row {
     width: 100%;
-    padding: 30px 60px;
+    padding: 0 60px 30px;
   }
 
   .result-client .hvideo-content q {
@@ -656,13 +659,13 @@
   }
 
   .testimony .container h3 {
-    font-size: 40px;
+    font-size: 30px;
     padding: 20px 0;
   }
 
   /* WHY-CHOOSE SECTION */
   .choose h3 {
-    font-size: 35px;
+    font-size: 30px;
     padding: 20px;
   }
 
@@ -689,6 +692,7 @@
 
   .expertise h3 {
     padding: 30px 0 20px;
+    font-size: 30px;
   }
 
   .expertise .row {
@@ -717,17 +721,21 @@
   .about-content .row {
     padding: 20px 30px;
   }
+  .about-content .about-content-head h2 {
+    font-size: 30px;
+}
   .about-result-relationship {
     padding: 30px;
   }
   .about-result-relationship .about-result h2 {
-    font-size: 25px;
+    font-size: 30px;
   }
   .different .row {
     padding: 20px 30px;
   }
   .different .row .left-diff h2 {
-    font-size: 22px;
+    font-size: 30px;
+    text-align: left;
   }
   .different .diff-img img {
     width: 42%;
@@ -740,6 +748,9 @@
   .about-history .const {
     padding: 20px 30px;
   }
+  .about-history .history-content h2 {
+    font-size: 30px;
+}
   .about-history .years-histories {
     padding: 0;
   }
@@ -762,15 +773,31 @@
     padding: 10px 40px;
     margin-top: 140px;
   }
+  .about-vision .vision-content .vision-content-text h3 {
+    font-size: 30px;
+}
+.about-mission .mission-head h2 {
+  font-size: 30px;
+}
   .about-mission,
   .about-core-values {
     padding: 20px 30px;
   }
+  .about-core-values .value-head h2 {
+    font-size: 30px;
+}
 
   /* SERVICE PAGE */
   .service-page .container p {
     font-size: 18px;
   }
+  /* CONTACT PAGE */
+  .contact-form .msg-head h2 {
+    font-size: 30px;
+  }
+  .find-us .find-us-head h2 {
+    font-size: 30px;
+}
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
@@ -829,7 +856,7 @@
 
   .banner .banner-content .banner-link a {
     padding: 17px 16px;
-    font-size: 17px;
+    font-size: 16.5px;
   }
 
   /* MEDIA REVIEWS */
@@ -866,17 +893,20 @@
 
   /* GET CLIENT RESULT SECTION */
   .result-client h3 {
-    font-size: 35px;
+    font-size: 28px;
     padding: 20px 0;
   }
 
   .result-client .row {
-    padding: 20px 30px;
+    padding: 0 30px 30px;
   }
 
   .result-client .row .video-left {
     margin-right: 0;
     /* margin-bottom: 20px; */
+  }
+  .result-client .hvideo-content .video-para {
+    font-size: 16.5px;
   }
 
   .result-client .row .video-right {
@@ -924,7 +954,7 @@
   }
 
   .testimony .testimonials p {
-    font-size: 18px;
+    font-size: 16.5px;
     padding: 10px 0;
   }
 
@@ -953,8 +983,9 @@
   }
 
   .choose .choose-info p {
-    font-size: 15px;
+    font-size: 16.5px;
     line-height: 1.5;
+    text-align: justify;
   }
 
   .choose .our-team {
@@ -976,8 +1007,16 @@
     padding: 15px;
   }
 
+  .choose .our-team .meet-team p {
+    font-size: 16.5px;
+  }
+
   .team-read-more {
     padding-left: 0;
+  }
+
+  .team-more-info .team-read-more p {
+    font-size: 16.5px;
   }
 
   .team-more-info .team-read-more .team-par-head {
@@ -985,20 +1024,46 @@
     padding: 5px;
     margin: 0 100px 15px;
   }
+
+  .expertise h3 {
+    font-size: 28px;
+  }
+  .expertise .expert p {
+    font-size: 16.5px;
+  }
   .grow-business .grow-business-info p {
-    font-size: 18px;
+    font-size: 16.5px;
     padding: 45px 15px 20px;
+  }
+
+  p {
+    font-size: 16.5px;
   }
 
   .contact-form form {
     padding: 20px;
   }
 
+  .about-content .about-content-head h2 {
+    font-size: 28px;
+  }
+  .about-result-relationship .about-result h2 {
+    font-size: 28px;
+  }
+  .about-result-relationship .about-result p {
+    font-size: 16.5px;
+  }
+  .different .row .left-diff h2 {
+    font-size: 28px;
+  }
+  .different .row .left-diff p {
+    font-size: 16.5px;
+  }
   .about-vision .vision-content .vision-content-text h3 {
     font-size: 30px;
   }
   .about-vision .vision-content .vision-content-text p {
-    font-size: 17px;
+    font-size: 16.5px;
   }
 
   .about-mission,
@@ -1015,10 +1080,19 @@
     width: 80%;
   }
   .about-mission .mission-content p {
-    font-size: 17px;
+    font-size: 16.5px;
   }
   .about-core-values .value-content p {
-    font-size: 17px;
+    font-size: 16.5px;
+  }
+  .contact-form .msg-head h2 {
+    font-size: 28px;
+  }
+  .contact-form .msg-head p {
+    font-size: 16.5px;
+  }
+  .find-us .find-us-head h2 {
+    font-size: 28px;
   }
 
   /* FOOTER SECTION */
@@ -1153,7 +1227,7 @@
   }
 
   .result-client .row {
-    padding: 10px 15px;
+    padding: 0 15px 15px;
   }
 
   .result-client .row .video-left {
@@ -1169,7 +1243,7 @@
 
   .result-client .hvideo-content .video-para {
     font-size: 15px;
-}
+  }
 
   /* TESTIMONIAL SECTION */
   .testimony {
@@ -1272,14 +1346,14 @@
 
   .team-more-info .team-read-more p {
     font-size: 15px;
-}
+  }
 
-.about-result-relationship .about-result p {
-  font-size: 15px;
-}
-.about-history .history-content p {
-  font-size: 15px;
-}
+  .about-result-relationship .about-result p {
+    font-size: 15px;
+  }
+  .about-history .history-content p {
+    font-size: 15px;
+  }
 
   .expertise .row {
     padding: 0 20px;
@@ -1310,7 +1384,7 @@
 
   .find-us .find-us-head h2 {
     font-size: 26px;
-}
+  }
 
   /* FOOTER SECTION */
   footer .row {
@@ -1561,7 +1635,7 @@
   /* Watch Video Section */
 
   .result-client .row {
-    padding: 10px 15px;
+    padding: 0 15px 15px;
   }
 
   .result-client .row .video-left {
@@ -1686,44 +1760,44 @@
 
   .about-history .history-content h2 {
     font-size: 24px;
-}
+  }
 
   .about-content .about-content-head h2 {
     font-size: 24px;
   }
   .about-result-relationship .about-result h2 {
     font-size: 24px;
-}
+  }
   .about-result-relationship .about-result p {
     font-size: 14px;
-}
-.about-history .history-content p {
-  font-size: 14px;
-}
-.about-vision .vision-content .vision-content-text h3 {
-  font-size: 24px;
-}
-.about-vision .vision-content .vision-content-text p {
-  font-size: 14px;
-}
-.about-mission .mission-head h2 {
-  font-size: 24px;
-}
-.about-mission .mission-content p {
-  font-size: 14px;
-}
-.about-core-values .value-head h2 {
-  font-size: 24px;
-}
-.about-core-values .value-content p {
-  font-size: 14px;
-}
-.different .row .left-diff h2 {
-  font-size: 24px;
-}
-.different .row .left-diff p {
-  font-size: 14px;
-}
+  }
+  .about-history .history-content p {
+    font-size: 14px;
+  }
+  .about-vision .vision-content .vision-content-text h3 {
+    font-size: 24px;
+  }
+  .about-vision .vision-content .vision-content-text p {
+    font-size: 14px;
+  }
+  .about-mission .mission-head h2 {
+    font-size: 24px;
+  }
+  .about-mission .mission-content p {
+    font-size: 14px;
+  }
+  .about-core-values .value-head h2 {
+    font-size: 24px;
+  }
+  .about-core-values .value-content p {
+    font-size: 14px;
+  }
+  .different .row .left-diff h2 {
+    font-size: 24px;
+  }
+  .different .row .left-diff p {
+    font-size: 14px;
+  }
 
   .contact-form form {
     padding: 15px;
@@ -1738,15 +1812,15 @@
 
   .find-us p {
     font-size: 14px;
-}
+  }
 
-p {
-  font-size: 14px;
-}
+  p {
+    font-size: 14px;
+  }
 
-.find-us .find-us-head h2 {
-  font-size: 24px;
-}
+  .find-us .find-us-head h2 {
+    font-size: 24px;
+  }
 
   /* FOOTER SECTION */
   footer .row {
