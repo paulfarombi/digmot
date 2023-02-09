@@ -1103,7 +1103,7 @@
     font-size: 17px;
   }
   .service-page .banner p {
-    font-size: 16px;
+    font-size: 15px;
   }
 
   /* MEDIA REVIEWS */
@@ -1163,6 +1163,10 @@
     font-size: 22px;
   }
 
+  .result-client .hvideo-content .video-para {
+    font-size: 15px;
+}
+
   /* TESTIMONIAL SECTION */
   .testimony {
     border-top: none;
@@ -1200,7 +1204,7 @@
   }
 
   .testimony .testimonials p {
-    font-size: 16px;
+    font-size: 15px;
     padding: 8px 0;
   }
 
@@ -1250,6 +1254,7 @@
   .choose .our-team .meet-team p {
     text-align: justify;
     padding: 0 10px;
+    font-size: 15px;
   }
   .team-read-more {
     padding-left: 0;
@@ -1260,6 +1265,17 @@
     padding: 5px;
     margin: 0 60px 15px;
   }
+
+  .team-more-info .team-read-more p {
+    font-size: 15px;
+}
+
+.about-result-relationship .about-result p {
+  font-size: 15px;
+}
+.about-history .history-content p {
+  font-size: 15px;
+}
 
   .expertise .row {
     padding: 0 20px;
@@ -1276,7 +1292,7 @@
 
   .grow-business .grow-business-info p {
     padding-top: 30px;
-    font-size: 16px;
+    font-size: 15px;
     padding-bottom: 15px;
   }
 
@@ -1315,15 +1331,18 @@
   footer .office-footer {
     padding-top: 0;
   }
+  p {
+    font-size: 15px;
+  }
 }
 
 @media (max-width: 480px) {
   .result-client .hvideo-content .tarrif-cont .tarrif {
     font-size: 35px;
-}
-.result-client .hvideo-content .tarrif-cont .tarrif span {
-  font-size: 16px;
-}
+  }
+  .result-client .hvideo-content .tarrif-cont .tarrif span {
+    font-size: 16px;
+  }
   .contact-form .msg-head h2 {
     font-size: 30px;
   }
@@ -1382,7 +1401,7 @@
     font-size: 25px;
   }
   .about-vision .vision-content .vision-content-text p {
-    font-size: 16px;
+    font-size: 15px;
   }
   .about-mission,
   .about-core-values {
@@ -1398,10 +1417,10 @@
     width: 80%;
   }
   .about-mission .mission-content p {
-    font-size: 16px;
+    font-size: 15px;
   }
   .about-core-values .value-content p {
-    font-size: 16px;
+    font-size: 15px;
   }
 
   /* SERVICE PAGE */
@@ -1586,7 +1605,7 @@
   }
 
   .testimony .testimonials p {
-    font-size: 16px;
+    font-size: 14px;
     padding: 8px 0;
   }
 
@@ -1610,7 +1629,8 @@
   }
 
   .choose .choose-info p {
-    font-size: 15px;
+    font-size: 14px;
+    padding-bottom: 10px;
     line-height: 1.5;
     text-align: justify;
   }
@@ -1652,13 +1672,34 @@
 
   .grow-business .grow-business-info p {
     padding-top: 30px;
-    font-size: 18px;
+    font-size: 14px;
     padding-bottom: 20px;
   }
 
   .about-content .about-content-head h2 {
     font-size: 24px;
   }
+  .about-result-relationship .about-result h2 {
+    font-size: 22px;
+}
+  .about-result-relationship .about-result p {
+    font-size: 14px;
+}
+.about-history .history-content p {
+  font-size: 14px;
+}
+.about-vision .vision-content .vision-content-text p {
+  font-size: 14px;
+}
+.about-mission .mission-content p {
+  font-size: 14px;
+}
+.about-core-values .value-content p {
+  font-size: 14px;
+}
+.different .row .left-diff p {
+  font-size: 14px;
+}
 
   .contact-form form {
     padding: 15px;
@@ -1670,6 +1711,14 @@
   .contact-form .msg-head p {
     font-size: 14px;
   }
+
+  .find-us p {
+    font-size: 14px;
+}
+
+p {
+  font-size: 14px;
+}
 
   /* FOOTER SECTION */
   footer .row {
