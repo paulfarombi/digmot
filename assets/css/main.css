@@ -335,7 +335,7 @@ header nav ul li a:hover {
   font-size: 46px;
   text-align: center;
   padding: 30px 0;
-  color: var(--black);
+  color: var(--main-color);
   font-weight: 100;
 }
 
@@ -355,16 +355,13 @@ header nav ul li a:hover {
   float: left;
   margin-right: 10px;
   border: 2px solid var(--main-color);
-  background-color: var(--main-color);
 }
 .result-client .row .hvideo-content {
   display: flex;
   flex-direction: column;
-  /* border: 2px solid var(--main-color); */
   border-top: none;
-  margin-top: 0;
+  margin-top: 10px;
   padding-top: 0;
-  background-color: #fff;
 }
 .result-client .hvideo-content q {
   background-color: var(--main-color);
@@ -410,7 +407,6 @@ header nav ul li a:hover {
   /* float: left; */
   margin-left: 10px;
   border: 2px solid var(--main-color);
-  background-color: var(--main-color);
 }
 
 .result-client video {
@@ -438,6 +434,7 @@ header nav ul li a:hover {
   font-size: 46px;
   font-weight: 100;
   padding: 40px;
+  color: var(--main-color);
 }
 
 .testimony .container h3 span {
@@ -492,6 +489,7 @@ header nav ul li a:hover {
   font-size: 46px;
   font-weight: 100;
   padding: 25px 0 20px;
+  color: var(--main-color);
 }
 
 .choose h3 span {
@@ -535,6 +533,7 @@ header nav ul li a:hover {
 .choose .our-team .meet-team h4 {
   font-size: 20px;
   padding: 20px 0;
+  color: var(--main-color);
 }
 
 .team-more-info .row {
@@ -572,7 +571,9 @@ header nav ul li a:hover {
   font-size: 46px;
   padding: 50px 0 20px;
   font-weight: lighter;
+  color: var(--main-color);
 }
+
 
 .expertise h3 span {
   font-weight: 1000;
@@ -874,6 +875,7 @@ footer .footer-media li a {
   font-size: 30px;
   line-height: 30px;
   padding-bottom: 20px;
+  color: var(--main-color);
 }
 .about-result-relationship .about-result p {
   font-size: 19px;
@@ -1337,6 +1339,7 @@ footer .footer-media li a {
   text-align: center;
   padding: 20px;
   font-size: 30px;
+  color: var(--main-color);
 }
 
 .find-us p {
